@@ -50,6 +50,10 @@ hr {
 	font-weight: bold;
 	color: #000;
 }
+.carousel-inner > .item img {
+	min-height: 432px;
+	max-height: 432px;
+}
 /* Icones */
 .icones {
 	width: 300px;
