@@ -1,0 +1,155 @@
+@font-face {
+	font-family:'Glyphicons Halflings';
+	src:url('../fonts/glyphicons-halflings-regular.eot');
+	src:url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'),url('../fonts/glyphicons-halflings-regular.woff') format('woff'),url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'),url('../fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+}
+* {
+	font-family: 'Glyphicons Halflings' !important;
+	outline: none;
+}
+body {
+	margin: 0;
+	padding: 0;
+	background: url(../img/bg.png) repeat;
+}
+hr {
+	border-bottom: 1px dashed #333333;
+}
+.borderLessRadius *,.borderLessRadius {
+	-webkit-border-radius:0 !important;
+	-moz-border-radius:0 !important;
+	-o-border-radius: 0 !important;
+	-ms-border-radius: 0 !important;
+	border-radius:0 !important;
+}
+.faixa-preta {
+	width: 100%;
+	height: 20px;
+	margin-bottom: 20px;
+	background-color: #000;
+}
+.txtBuscar {
+	padding: 12px 15px 12px 15px;
+	background-color: #fff;
+	border: none;
+}
+.navbar-inverse {
+	background-image: none;
+	background-color: #fff;
+	border: none;
+}
+.navbar-inverse .navbar-toggle {
+	background-color: #000;
+}
+.navbar {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.navbar-nav > li.active, .navbar-inverse .navbar-nav>.active>a {
+	background-color: transparent;
+	font-weight: bold;
+	color: #000;
+}
+/* Icones */
+.icones {
+	width: 300px;
+	height: 308px;
+	background: url(../img/icones.png) no-repeat;
+	display: inline-block;
+}
+.icones.visualizar {
+	width: 58px;
+	height: 59px;
+	background-position: -25px 0px;
+}
+.icones.telefone {
+	width: 107px;
+	height: 92px;
+	background-position: -25px -70px;
+}
+.icones.rodape {
+	max-width: 30px;
+	max-height: 35px;
+}
+.icones.marcador {
+	background-position: -20px -173px;
+}
+.icones.celular {
+	background-position: -20px -215px;
+}
+.icones.email {
+	background-position: -15px -255px;
+}
+.icones.facebook {
+	background-position: -60px -173px;
+}
+.icones.twitter {
+	background-position: -90px -173px;
+}
+.icones.esq-dir {
+	width: 40px;
+	height: 40px;
+	bottom: 40px;
+	right: 150px;
+	position: relative;
+}
+.icones.btn-esquerda {
+	background-position: -158px -7px;
+	margin-right: -15px;
+}
+.icones.btn-direita {
+	background-position: -196px -7px;
+}
+.icones.mais {
+	width: 110px;
+	height: 115px;
+	background-position: -160px -70px;
+}
+.icones.topo {
+	width: 44px;
+	height: 45px;
+	margin-left: -10px;
+}
+.icones.topo.twitter {
+	background-position: -156px -236px;
+}
+.icones.topo.facebook {
+	background-position: -200px -236px;
+}
+.icones.topo.instagram {
+	background-position: -243px -236px;
+}
+.icones.topo.twitter:hover {
+	background-position: -156px -192px;
+	-webkit-transition:0.3s background-position;
+	-moz-transition:0.3s background-position;
+	-o-transition:0.3s background-position;
+	transition:0.3s background-position;
+}
+.icones.topo.facebook:hover {
+	background-position: -199px -192px;
+	-webkit-transition:0.3s background-position;
+	-moz-transition:0.3s background-position;
+	-o-transition:0.3s background-position;
+	transition:0.3s background-position;
+}
+.icones.topo.instagram:hover {
+	background-position: -243px -192px;
+	-webkit-transition:0.3s background-position;
+	-moz-transition:0.3s background-position;
+	-o-transition:0.3s background-position;
+	transition:0.3s background-position;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
+	background-color: transparent;
+	color: #000;
+}
+.navbar-inverse .navbar-nav>li>a:hover {
+	color: #000;
+}
+@media(max-width: 768px) {
+	.icones.topo {
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+}
